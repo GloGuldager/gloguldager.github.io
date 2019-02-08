@@ -7,6 +7,20 @@ body {
   color: #777777;
   }
 
+a { color: #4aaaa5}
+
+a:hover {
+  background-color: #4aaaa5; color: #ffffff;
+}
+
+a:link { 
+  color: #777777;
+}
+
+/* a:visited {
+  background-color: #4aaaa5; color: #ffffff;
+} */
+
 nav {
     float: right;
     margin: 0;
@@ -197,4 +211,5 @@ footer {
   color: white;
   text-align: center;
   border-top: solid #4aaaa5 5px;
+  margin-top: 25px;
 }
