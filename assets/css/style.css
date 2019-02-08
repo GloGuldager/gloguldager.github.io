@@ -7,7 +7,7 @@ body {
   color: #777777;
   }
 
-a { color: #4aaaa5}
+a { background-color: #ffffff; color: #4aaaa5}
 
 a:hover {
   background-color: #4aaaa5; color: #ffffff;
@@ -16,10 +16,6 @@ a:hover {
 a:link { 
   color: #4aaaa5;
 }
-
-/* a:visited {
-  background-color: #4aaaa5; color: #ffffff;
-} */
 
 nav {
     float: right;
