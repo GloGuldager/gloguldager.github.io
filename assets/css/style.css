@@ -7,14 +7,16 @@ body {
   color: #777777;
   }
 
-a { background-color: #ffffff; color: #4aaaa5}
+a { 
+  background-color: #4aaaa5; color: #ffffff;
+}
 
 a:hover {
   background-color: #4aaaa5; color: #ffffff;
 }
 
 a:link { 
-  color: #4aaaa5;
+  color: #ffffff;
 }
 
 nav {
@@ -37,7 +39,7 @@ nav ul li{
 }
 
 nav > ul > li > a{
-    color: #777777;
+    color: #ffffff;
     display: block;
     line-height: 2em;
     padding: 0.5em 1em;
@@ -133,7 +135,7 @@ h2 {
 
 .port1 {
   position: absolute;
-  background-image: url(../images/IMG_2712.JPG);
+  background-image: url(../images/question_mark_PNG107.png);
   background-size: cover;
 }
 .ban1 {
