@@ -1,44 +1,108 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Gloria Guldager Bio</title>
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>G. Guldager</title>
+      <link rel="stylesheet" href="assets/css/reset.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+    </head>
 <body>
+  <div class="container">
 
-  <div class="bg-div">
-    <div class="name">Gloria Guldager</div>
-    <nav>
-        <ul>
-            <li><a href="index.html">About</a></li> |
-            <li><a href="portfolio.html">Portfolio</a></li> |
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</div>
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #17243c;">
+        <a class="navbar-brand" href="#">Gloria Guldager</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://gloguldager.github.io/Psychic-Game/" target="_blank">Psychic Game</a>
+                <a class="dropdown-item" href="https://gloguldager.github.io/unit-4-game/" target="_blank">Crystal Game</a>
+                <a class="dropdown-item" href="portfolio.html">Project C</a>
+                <a class="dropdown-item" href="portfolio.html">Project D</a>
+                <a class="dropdown-item" href="portfolio.html">Project E</a>
+                <a class="dropdown-item" href="portfolio.html">Project F</a>
 
-    <div class="container">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-      <section id="main-bio">
-        
-        <h2>About Me</h2>
-        
-        <img id="bio-image" src="assets/images/Gloriaedited.jpg" alt="Gloria Guldager">
-        
-          <p>I am a Back-End Developer/Operations Manager/Project Manager with a passion for creating systems and procedures that minimize redundant activities and utilize data in efficient ways. Over 20 years experience working in database management, accounting, personnel management, and general management with the ability to discover systemic problems and find solutions to forge new paths. Highly adaptable to new technologies as they are introduced and enjoys the challenge of implementing new technologies to solve problems. Extremely organized and detail-oriented self-starter who can work in many different environments including team structures as well as work-from-home opportunities.</p.>
-          <br/>
-          <br/>
-          <a href="assets/images/Gloria Guldager Developer Resume.pdf" style: color:#4aaaa5; background-color: #ffffff; a:hover="background-color:" #4aaaa5, color: #ffffff; target="_blank">See Resume.</a>
-        </section>
-        
+<div class="container" style="background-color: #ffffff">
+
+    <div class="row">
+        <div class="col-lg-12 p-3">
+        <!-- The content in this div gets wrapped in a card -->
+          <div class="card">
+            <div class="card-body">
+              Full-Stack Web Developer/Back-End Developer/Operations Manager/Project Manager
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="assets/images/Gloriaedited.jpg" class="img-fluid.max-width: 100%; height: auto;" alt="Gloria Guldager">
+        <br>
       </div>
 
-    <footer>Copyright &copy 2019 Guldager</footer>
+      <div class="col-lg-2">
+        <a href="assets/images/Gloria Guldager Developer Resume.pdf" class="rounded mx-auto d-block" target="_blank" style="color:#17243c">See Resume</a>
+      <a href="https://github.com/GloGuldager?tab=projects" class="fa fa-github" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/gloria-guldager/" class="fa fa-linkedin" target="_blank"></a>
+      <br>
+      <br>
 
+      </div>
+
+        <div class="col-lg-8">
+          <h2>About Me</h2>
+          <p>I am passionate for creating systems and procedures that minimize redundant activities and utilize data in efficient ways. Over 20 years experience working in database management, accounting, personnel management, and general management with the ability to discover systemic problems and find solutions to forge new paths. Highly adaptable to new technologies as they are introduced and enjoys the challenge of implementing new technologies to solve problems. Extremely organized and detail-oriented self-starter who can work in many different environments including team structures as well as work-from-home opportunities.
+            </p>
+          <br>
+        </div>
+      </div>
+      <br>
+        <div class="fixed-bottom">Copyright &copy 2019 Guldager
+            <div class="container">
+            </div>
+         </div>
+        
+</div>
+
+        <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
 </body>
-
 </html>
+
+<!-- * A navbar
+
+* A responsive layout (remember the grid, rows and columns are your friends)
+
+  * eg. On `xs` and `sm` screens, content should take up the entire screen. On `md` and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
+
+* Responsive images
+
+**BONUS**
+Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site _(Hint: Check out the Bootstrap documentation)_ -->

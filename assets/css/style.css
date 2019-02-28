@@ -2,199 +2,63 @@ body {
   background-image: url("../images/gray-background-1436871274B7v.jpg");
   background-color: #777777;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1em;
   line-height: 150%;
-  color: #777777;
+  color: #17243c;
   }
 
-a { 
-  background-color: #4aaaa5; color: #ffffff;
-}
-
-a:hover {
-  background-color: #4aaaa5; color: #ffffff;
-}
-
-a:link { 
-  color: #ffffff;
-}
-
-nav {
-    float: right;
-    margin: 0;
-    overflow: hidden;
-    text-align: center;
-    border-bottom: 1px;
-    border-color: #cccccc;
-}
-
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
-}
-
-nav > ul > li > a{
-    color: #ffffff;
-    display: block;
-    line-height: 2em;
-    padding: 0.5em 1em;
-    text-decoration: none;
-}
-
-.name {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    color: #ffffff;
-    background-color: #4aaaa5;
-    font-size: 28px;
-    padding: 20px;
-    left: 6.25%;
-    float: left;
-    position: relative;
-}
-.bg-div {
-    overflow: hidden;
-    background:#ffffff;
-    margin-bottom: 25px;
-}
-.container {
-  width: 960px;
-  margin-left: 6.25%;
-  margin-right: 6.25%;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+.container {    
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  float: left;
-}
+  }
 
-h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 0px;
-    border-bottom: 2px solid #dddddd;
-}
+.card {
+  margin-top: 20px; 
+  margin-right: 20px;
+  }
 
-#bio-image {
-  padding: 10px;
-  padding-left: 0px;
-  float: left;
-}
+.card-img-top {
+  object-fit: cover;
+  }
 
-.title {
-  padding: 10px;
-  padding-left: 0px;
+  
+.card-body {
+  color: #17243c;
+  font-weight: bold;
+  font-size: large;
+  background-color: #cad5eb;
 }
-
-.input {
-  padding: 10px;
-  border: 1px solid #dddddd;
-}
-
-.box-message {
-  padding: 40px;
-}
-
-.submit {
-  width: 70px;
-  padding: 15px;
-  /* padding-left: 0px; */
-  background-color: #4aaaa5;
-  color: #ffffff;
+  
+.fixed-bottom {
+  width: 100%;
+  background-image: url("../images/gray-background-1436871274B7v.jpg");
+  color: #17243c;
+  font-size: 10px;
   text-align: center;
-  margin: 20px;
-  margin-left: 0px;
-}
-.port {
-  width: 200px;
-  height: 150px;
-  background-image: url("../images/portplacement.jpg");
-  border: 1px solid #666666;
-  margin: 20px;
-  margin-left: 0px;
-  float: left;
+  padding: 5px;
 }
 
-.banner {
-  position: relative;
-  width: 202px;
-  height: 40px;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  margin-top: 100px;
+/* Style social and professional shares */
+.fa {
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.port1 {
-  position: absolute;
-  background-image: url(../images/question_mark_PNG107.png);
-  background-size: cover;
-}
-.ban1 {
-  text-align: center;
+.fa:hover {
+  opacity: 0.7;
 }
 
-.port2 {
-  background-image: url(../images/IMG_5428.JPG);
-  background-size: cover;
-  position: relative;
-  margin-left: 225px;
-  margin-top: -120px;
-  float: left;
-}
-.ban2 {
-  margin-left: 225px;
-  margin-top: -40px;
-  text-align: center;
-}
-.port3 {
-  background-image: url(../images/IMG_5663.JPG);
-  background-size: cover;
-  position: relative;
-  margin-left: 450px;
-  margin-top: -172px;
-  float: left;
-}
-.ban3 {
-  margin-left: 450px;
-  margin-top: -40px;
-  text-align: center;
+/* Github */
+.fa-github {
+  background: #171515;
+  color: white;
 }
 
-.port4 {
-  background-image: url(../images/IMG_5679.JPG);
-  background-size: cover;
-  position: absolute;
-  margin-left: 0px;
-  margin-top: 60px;
-  float: left;
-}
-.ban4 {
-  margin-left: 0px;
-  margin-top: 130px;
-  text-align: center;
-}
+/* LinkedIn */
+.fa-linkedin {
+  color: white;
+  background: #0077B5;
 
-.port5 {
-  background-image: url(../images/IMG_5770.JPG);
-  background-size: cover;
-  position: relative;
-  margin-left: 225px;
-  margin-top: -110px;
-  float: left;
-}
-.ban5 {
-  margin-left: 225px;
-  margin-top: -40px;
-  text-align: center;
 }
 
 footer {
@@ -202,12 +66,4 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  /* padding: 20px; */
-  background-color: #666666;
-  font-size: 8px;
-  text-align-last: center;
-  color: white;
-  text-align: center;
-  border-top: solid #4aaaa5 5px;
-  margin-top: 25px;
 }
