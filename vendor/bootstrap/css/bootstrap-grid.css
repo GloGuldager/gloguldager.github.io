@@ -2041,7 +2041,7 @@ html {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .ml-5,
@@ -2446,7 +2446,7 @@ html {
   }
   .mb-sm-5,
   .my-sm-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 1rem !important;
   }
   .ml-sm-5,
   .mx-sm-5 {
@@ -2791,7 +2791,7 @@ html {
   }
   .mb-md-5,
   .my-md-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 1rem !important;
   }
   .ml-md-5,
   .mx-md-5 {
@@ -3136,7 +3136,7 @@ html {
   }
   .mb-lg-5,
   .my-lg-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 1rem !important;
   }
   .ml-lg-5,
   .mx-lg-5 {
@@ -3481,7 +3481,7 @@ html {
   }
   .mb-xl-5,
   .my-xl-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 1rem !important;
   }
   .ml-xl-5,
   .mx-xl-5 {
